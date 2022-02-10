@@ -1,0 +1,151 @@
+# 486 Processors Pinout Differences
+
+## Sources
+
+* [486 Pinouts](http://www.pchardwarelinks.com/486pin2.htm), Chris Hare, 2001
+* [Intel Pentium* Overdrive* Processor Datasheet](http://datasheets.chipdb.org/Intel/x86/486/applnots/29043606.PDF), Intel Corp., Order Number 290544-001, June 1995
+
+## Pinout differences
+
+* Pin A3 (PGA 169) / Pin B4 (Socket 3)
+  * TCK: Intel ODPR-S, Intel P4, Intel P4S, Intel P24, Intel P24S, Intel P24C, Intel P24D, AMD 486DX2, AMD 486DX2W, AMD 486DX4, AMD 486DX4W, Cyrix 5x86
+  * NC/INC: Other CPUs
+* Pin A10 (PGA 169) / Pin B11 (Socket 3)
+  * SUSPA#: IBM 486DX, IBM 486DXV, IBM 486DX2, IBM 486DX2V, IBM 486DX4, SGS 486DX, SGS 486DX2
+  * INV: Intel P24D, IBM 5x86C, AMD 486DX2, AMD 486DX2W, AMD 486DX4, AMD 486DX4W, AMD 5x86
+  * INVAL: IBM 486DX4W, SGS 486DX2V, SGS 5x86, Cyrix 5x86
+  * NC/INC: Other CPUs
+* Pin A12 (PGA 169) / Pin B13 (Socket 3)
+  * HITM#: Intel P24D, IBM 486DX4W, IBM 5x86C, AMD 486DX2W, AMD 486DX4W, AMD 5x86, SGS 486DX2V, SGS	5x86, Cyrix 5x86
+  * SMI#: IBM	486DX, IBM 486DXV, IBM 486DX2, IBM 486DX2V, IBM 486DX4
+  * NC/INC: Other CPUs
+* Pin A13	(PGA 169) / Pin B14 (Socket 3)
+  * FERR#: Intel P23N, Intel ODP, Intel ODP-S, Intel P24T
+  * RPLSET1: IBM 486DX, IBM 486DXV, IBM 486DX2, IBM 486DX2V, IBM 486DX4, SGS 486DX, SGS 486DX2
+  * SUSPA#: IBM 486DX4W, IBM 5x86C, SGS 486DX2V, SGS 5x86, Cyrix 5x86
+  * NC/INC: Other CPUs
+* Pin A14	(PGA 169) / Pin B15 (Socket 3)
+  * TDI: Intel ODPR-S, Intel P4, Intel P4S, Intel P24, Intel P24S, Intel P24C, Intel P24D, IBM 486DX4W, IBM 5x86C, AMD 486DX2, AMD 486DX2W, AMD 486DX4, AMD 486DX4W, Cyrix 5x86, SGS 486DX2V, SGS 5x86
+  * NC/INC: Other CPUs
+* Pin A15	(PGA 169) / Pin B16 (Socket 3)
+  * NMI: Intel P23, Intel P23S
+  * IGNNE#: Other CPUs
+* Pin B10	(PGA 169) / Pin C11 (Socket 3)
+  * SMI#: Intel	P23S, Intel P23N, Intel ODP-S, Intel ODPR-S, Intel P4S, Intel P24S, Intel P24C, Intel	P24D, Intel P24T, IBM 5x86C, AMD 486DX2W, AMD 486DX4W, AMD 5x86, Cyrix 5x86
+  * NC/INC: Other CPUs
+* Pin B12	(PGA 169) / Pin C13 (Socket 3)
+  * CACHE#: Intel P24D, IBM 5x86C, AMD 486DX2W, AMD	486DX4W, AMD 5x86, SGS 5x86, Cyrix 5x86
+  * TEST: IBM	486DX, IBM 486DXV, IBM 486DX2, IBM 486DX2V
+  * RPLSET1: IBM 486DX4W, SGS 486DX2V
+  * NC/INC: Other CPUs
+* Pin B13	(PGA 169) / Pin C14 (Socket 3)
+  * WB/WT#: Intel P24D, IBM 5x86C, AMD 486DX2W, AMD 486DX4W, AMD 5x86
+  * WM_RST: IBM 486DX, IBM 486DXV, IBM 486DX2, IBM 486DX2V, IBM 486DX4, SGS 486DX, SGS 486DX2
+  * RPLVAL#: IBM 486DX4W, SGS 486DX2V, SGS 5x86
+  * CLKMUL: AMD 486DX2, AMD 486DX4
+  * NC/INC: Other CPUs
+* Pin B14	(PGA 169) / Pin C15 (Socket 3)
+  * MP#/UP#: Intel P23N, Intel ODP, Intel ODP-S, Intel P24T, 
+  * TMS: Intel ODPR-S, Intel P4, Intel P4S, Intel P24, Intel P24S, Intel P24C, Intel P24D, IBM 486DX4W, IBM 5x86C, AMD 486DX2, AMD 486DX2W, AMD 486DX4, AMD 486DX4W, Cyrix 5x86, SGS 486DX2V, SGS 5x86
+  * RPLSET0: IBM 486DX4W, SGS	486DX2V, SGS 5x86
+* Pin B15	(PGA 169) / Pin C16 (Socket 3)
+  * NC: Intel P23, Intel P23S
+  * NMI: Other CPUs
+* Pin B16	(PGA 169) / Pin C17 (Socket 3)
+  * TDO: Intel ODPR-S, Intel P4, Intel P4S, Intel P24, Intel P24S, Intel P24C, Intel P24D, IBM 486DX4W, IBM 5x86C, AMD 486DX2, AMD 486DX2W, AMD 486DX4, AMD 486DX4W, Cyrix 5x86, SGS 486DX2V, SGS 5x86
+  * NC/INC: Other CPUs
+* Pin C10	(PGA 169) / Pin D11 (Socket 3)
+  * SRESET: Intel P23S, Intel P23N, Intel ODP-S, Intel ODPR-S, Intel P4S, Intel	P24S, Intel	P24C, Intel P24D, AMD 486DX2W, AMD 486DX4W, AMD 5x86
+  * WM_RST: IBM 486DX4W, IBM 5x86C, SGS	486DX2V, SGS 5x86, Cyrix 5x86
+  * SMADS#: IBM 486DX, IBM 486DXV, IBM 486DX2, IBM 486DX2V, IBM 486DX4, SGS 486DX, SGS 486DX2
+  * NC/INC: Other CPUs
+* Pin C11	(PGA 169) / Pin D12 (Socket 3)
+  * MP#/UP#: Intel P23S, Intel ODPR-S, Intel P4, Intel P4S, Intel P24, Intel P24S, Intel P24C, Intel P24D, AMD 486DX2, AMD 486DX2W, AMD 486DX4, AMD 486DX4W, AMD 5x86, SGS 486DX, SGS 486DX2, SGS 486DX2V, SGS 5x86, Cyrix 5x86
+  * NC/INC: Other CPUs
+* Pin C12	(PGA 169) / Pin D13 (Socket 3)
+  * SMIACT#: Intel P23S, Intel P23N, Intel ODP-S, Intel ODPR-S, Intel P4S, Intel P24S, Intel P24C, Intel P24D, Intel P24T, AMD 486DX2W, AMD 486DX4W, AMD 5x86
+  * SMADS#: IBM	486DX4W, IBM 5x86C, SGS 486DX, SGS 486DX2, SGS 486DX2V, SGS 5x86, Cyrix 5x86
+  * RPLSET0: IBM 486DX, IBM 486DXV, IBM 486DX2, IBM 486DX2V, IBM 486DX4
+  * NC/INC: Other CPUs
+* Pin C13	(PGA 169) / Pin D14 (Socket 3)
+  * RPLVAL#: IBM 486DX, IBM 486DXV, IBM 486DX2, IBM 486DX2V, IBM 486DX4, SGS 486DX, SGS 486DX2
+  * TEST: IBM 486DX4W, IBM 5x86C, SGS 486DX2V, SGS 5x86
+  * NC: Other CPUs
+* Pin C14	(PGA 169) / Pin D15 (Socket 3)
+  * NC: Intel ODP (check if it is INC)
+  * INC: Intel P23, Intel P23S, Intel P23N, Intel P24T
+  * FERR#: Other CPUs
+* Pin D4	(PGA 169) / Pin E5 (Socket 3)
+  * KEY (pin): Intel P23N, Intel ODP, Intel ODP-S
+  * No pin: Other CPUs
+* Pin G15	(PGA 169) / Pin H16 (Socket 3)
+  * STPCLK#: Intel P23S, Intel P23N, Intel ODP-S, Intel ODPR-S, Intel P4S, Intel P24S, Intel P24C, Intel P24D, Intel P24T, AMD 486DX2W, AMD 486DX4W, AMD 5x86
+  * SUSP#: IBM 486DX, IBM 486DXV, IBM 486DX2, IBM 486DX2V, IBM 486DX4, IBM 486DX4W, IBM 5x86C, SGS 486DX, SGS 486DX2, SGS 486DX2V, SGS 5x86, Cyrix 5x86
+  * NC/INC: Other CPUs
+* Pin J1	(PGA 169) / Pin K2 (Socket 3)
+  * Vcc5: Intel P24C
+  * INC: AMD 486DX2
+  * NC: IBM 486DXV, IBM 486DX2V, IBM 486DX4, IBM 486DX4W, IBM 5x86C, SGS 486DX, SGS 486DX2, SGS 486DX2V, SGS 5x86, Cyrix 5x86
+  * Vcc: Other CPUs (how is it defined in 3.3V/3.45V CPUs?)
+* Pin R17	(PGA 169) / Pin S18 (Socket 3)
+  * CLKMUL: Intel P24C, IBM 486DX4W, IBM 5x86C, AMD 486DX2W, AMD 486DX4W, AMD 5x86, SGS 486DX2V, SGS 5x86, Cyrix 5x86
+  * HITM#: IBM 486DX, IBM	486DXV, IBM 486DX2, IBM 486DX2V, IBM 486DX4, SGS 486DX, SGS 486DX2
+  * NC/INC: Other CPUs
+* Pin S5	(PGA 169) / Pin T6 (Socket 3)
+  * VOLDET: Intel P24C, IBM 5x86C, AMD 486DX2, AMD 486DX2W, AMD 486DX4, AMD 486DX4W, AMD 5x86, SGS 486DX2V, SGS 5x86, Cyrix 5x86
+  * BRDYC#: Intel P23S, Intel P4S, Intel P24S
+  * INVAL: IBM 486DX, IBM 486DXV, IBM 486DX2, IBM 486DX2V, IBM 486DX4, SGS 486DX, SGS 486DX2
+  * Vss: IBM 486DX4W
+  * NC: Other CPUs
+
+Are these the same pins
+* INV ?= INVAL (IBM, SGS, Cyrix)
+* SRESET == INIT (P24T) ?= WM_RST (IBM, SGS, Cyrix)
+* SMIACT# ?= SMADS# (IBM, SGS, Cyrix)
+* STPCLK# ?= SUSP# (IBM, SGS, Cyrix)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
