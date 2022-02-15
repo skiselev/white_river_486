@@ -148,5 +148,6 @@ Are these the same pins
 ## Sources
 
 * [486 Pinouts](http://www.pchardwarelinks.com/486pin2.htm), Chris Hare, 2001
-* [Intel Pentium* Overdrive* Processor](http://datasheets.chipdb.org/Intel/x86/486/applnots/29043606.PDF), Datasheet,  Order Number 290544-001, Intel Corp., June 1995
-* [IBM Microelectronics 486DX2 Common Socket Specification For 168 PGA Socket](http://datasheets.chipdb.org/IBM/x86/486/40004.PDF) Application Note, Fax# 40004, IBM Corp., May 23rd, 1995
+* [Intel* Pentium* Overdrive* Processor](http://datasheets.chipdb.org/Intel/x86/486/applnots/29043606.PDF), Datasheet,  Order Number 290544-001, Intel Corp., June 1995
+* [Intel* Overdrive* Processors](http://datasheets.chipdb.org/Intel/x86/486/applnots/29043606.PDF), Datasheet, Order Number: 290436-006, Intel Corp., December 1995
+* [IBM* Microelectronics 486DX2 Common Socket Specification For 168 PGA Socket](http://datasheets.chipdb.org/IBM/x86/486/40004.PDF) Application Note, Fax# 40004, IBM Corp., May 23rd, 1995
